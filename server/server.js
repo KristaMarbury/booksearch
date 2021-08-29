@@ -18,7 +18,7 @@ async function startServer() {
   server.applyMiddleware({ app });
 }
 startServer();
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Serve up static assets
@@ -33,6 +33,6 @@ app.get("*", (req, res) => {
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`API server running on port ${PORT}!`);
-    console.log(`Use GraphQL at http://localhost:${PORT}`);
+    // console.log(`Use GraphQL at http://localhost:${PORT}`);
   });
 });
