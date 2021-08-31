@@ -1,7 +1,7 @@
 # booksearch
 Built by K-Leigh Marbury
 
-A backend that allows users to peruse and interact with an employee database. A picture showing the menu can be found below:
+A website that allows users to peruse and interact with a search engine to find amazing books!. A couple of picture can be found below:
 
 ![Screen Shot 2021-08-27 at 5 10 46 PM](https://user-images.githubusercontent.com/78391731/131194004-66f7b054-532f-4b6e-98b7-a06e684e3ec1.png)
 ![Screen Shot 2021-08-27 at 5 12 48 PM](https://user-images.githubusercontent.com/78391731/131194016-3dd190c3-56dd-4b2f-9cd8-ae55f29af098.png)
